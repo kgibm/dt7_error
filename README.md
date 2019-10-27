@@ -10,7 +10,7 @@ docker build -t dt7_190010_javaee8 -f Dockerfile.190010.javaee8  .
 ```
 docker run -d -p 9080:9082 dt7_19009_javaee8
 docker run -d -p 9081:9082 dt7_190010_javaee7
-docker run -d -p 9082:9082 dt7_190010_javaee7
+docker run -d -p 9082:9082 dt7_190010_javaee8
 ```
 
 3. Login
